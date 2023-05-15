@@ -2,7 +2,7 @@ import joblib
 import pandas as pd
 import streamlit as st
 
-st.title("Size Prediction")
+st.title("Shirt Size Prediction")
 
 age = st.number_input("Enter your age:", 1, 117)
 weight = st.number_input("Enter your weight:", 1, 136)
